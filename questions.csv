@@ -1,0 +1,29 @@
+question,opt1,opt2,opt3,opt4,answer
+"1. What is the output?
+    print(type(10))",<class 'int'>,<class 'float'>,int,Error,<class 'int'>
+"2. What will this print?
+    def func(a, b=2):
+        return a + b
+    print(func(3))",3,5,6,Error,5
+"3. What is the output?
+    x = [1, 2, 3]
+    print(x[-1])",1,2,3,Error,3
+4. What does range(5) generate?,0 to 5,1 to 5,0 to 4,1 to 4,0 to 4
+"5. What is the output?
+    a = '5'
+    b = 5
+    print(a == b)",True,False,Error,None,False
+"6. What will this print?
+    for i in range(2):
+        print(i)",1 2,0 1,0 1 2,infinite Loop,0 1
+"7. What is the output?
+    x = {1, 2, 2, 3}
+    print(len(x))",4,3,2,Error,3
+"8. What will this print?
+    print('Hello' * 2)",HelloHello,Hello 2,Error,Hello*2,HelloHello
+"9. What is the output?
+    x = [10, 20, 30]
+    x.pop()
+    print(x)","[10, 20, 30]","[10, 20]","[20, 30]",Error,"[10, 20]"
+"10. What will happen?
+    print(int('abc'))",0,None,ValueError,TypeError,ValueError
